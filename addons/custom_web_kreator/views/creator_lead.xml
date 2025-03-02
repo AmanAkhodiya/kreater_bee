@@ -424,6 +424,7 @@
                     left: 204px;
                     top: 26px;
                     border-radius: 20px;
+
                     }
 
                     .tutorial_text {
@@ -450,8 +451,8 @@
                     height: 15px;
                     background-color: white;
                     position: relative;
-                    left: 19px;
-                    top: -2px;
+                    left: 81px;
+                    top: -24px;
                     }
 
                     .whtsp_contact {
@@ -709,17 +710,18 @@
                                     t-esc="request.env.user.name" /></p>
                         </div>
                         <div class='col-lg-6 col-md-6 col-sm-6'>
-                            <a href="https://www.youtube.com/embed/GYsHQ3L2aG0?si=PxeJgCHMW-mu_sgP"
-                                data-bs-toggle="modal" data-bs-target="#videoModal"
-                                data-video-url="https://www.youtube.com/embed/GYsHQ3L2aG0?si=PxeJgCHMW-mu_sgP"
-                                style="text-decoration: none;">
-                                <div class='tutorials d-flex align-items-center'>
+                            <div class='tutorials d-flex align-items-center'>
+                                <a
+                                    href="https://www.youtube.com/embed/GYsHQ3L2aG0?si=PxeJgCHMW-mu_sgP"
+                                    data-bs-toggle="modal" data-bs-target="#videoModal"
+                                    data-video-url="https://www.youtube.com/embed/GYsHQ3L2aG0?si=PxeJgCHMW-mu_sgP"
+                                    style="text-decoration: none;position: relative;width: 100px;height: 36px;">
                                     <h6 class='tutorial_text d-flex align-items-center'>Tutorial</h6>
                                     <img class='play-icon'
                                         href="/custom_web_kreator/static/src/play-button.png"
                                         title="play button icons"></img>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                             <a href="https://wa.me/1234567890" target="_blank"
                                 style="text-decoration: none; color: #25D366;">
                                 <div class='whtsp_contact'>
